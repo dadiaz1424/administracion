@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/bankEntity")
-@CrossOrigin({"*"})
+@CrossOrigin({"https://backoffice-6ea1c.web.app/"})
 public class BankEntityController {
     private final BankEntityService bankEntityService;
 

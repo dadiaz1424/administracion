@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/v1/holiday")
-@CrossOrigin({"*"})
+@CrossOrigin({"https://backoffice-6ea1c.web.app/"})
 public class HolidayController {
 
     private final HolidayService holidayService;
